@@ -3,6 +3,7 @@
 import { util } from "./util";
 
 export class KalmanFilter {
+  private earth_R = 6366707.0195  //Earth radius in meters
   private x: number;
   private y: number;
   private vx: number;
@@ -36,26 +37,7 @@ export class KalmanFilter {
     [0, 0, 0, 0],
   ]; // Kalman gain
 
-  private sum_x: number = 0;
-  private sum_y: number = 0;
-  private sum_vx: number = 0;
-  private sum_vy: number = 0;
   private measurement_count: number = 0;
-  private sum_x_diff: number = 0;
-  private sum_y_diff: number = 0;
-  private sum_vx_diff: number = 0;
-  private sum_vy_diff: number = 0;
-
-  private sum_x_vx: number = 0;
-  private sum_y_vy: number = 0;
-
-  private veri_x: number = 0;
-  private veri_y: number = 0;
-  private veri_vx: number = 0;
-  private veri_vy: number = 0;
-
-  private coveri_x_vx: number = 0;
-  private coveri_y_vy: number = 0;
 
   constructor(
     initialState: { x: number; y: number; vx: number; vy: number },
@@ -67,15 +49,15 @@ export class KalmanFilter {
     this.vx = initialState.vx;
     this.vy = initialState.vy;
 
-    this.findVariances(initialState);
+    //this.findVariances(initialState);
     this.X = this.convertStateToMatrix(initialState);
 
     // Initialize state covariance matrix (P)
     if (initialP) {
       this.P = initialP;
     } else {
-      const defaultSigmaX = 1.0;
-      const defaultSigmaY = 1.0;
+      const defaultSigmaX = 1;
+      const defaultSigmaY = 1;
       const defaultSigmaVx = 0.1;
       const defaultSigmaVy = 0.1;
 
@@ -92,8 +74,8 @@ export class KalmanFilter {
     this.dt = dt;
     // Prediction step of the Kalman filter
     const A = [
-      [1, 0, dt, 0],
-      [0, 1, 0, dt],
+      [1, 0, (dt*(5/18)/this.earth_R), 0],
+      [0, 1, 0, (dt*(5/18)/(this.earth_R*Math.cos(this.x)))],
       [0, 0, 1, 0],
       [0, 0, 0, 1],
     ];
@@ -101,18 +83,22 @@ export class KalmanFilter {
     const A_T = util.transposeMatrix(A);
 
     const B = [
-      [0.5 * dt ** 2, 0],
-      [0, 0.5 * dt ** 2],
-      [dt, 0],
-      [0, dt],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
     ];
 
+
+    const positionUncertaintyInPrediction = 1; // Adjust based on the accuracy of the prediction
+    const velocityUncertaintyInPrediction = 1.5; // Adjust based on the accuracy of the prediction
+    
     // Noise in the prediction
     this.Q = [
-      [dt/3*0.9, 0, 0, 0],
-      [0, dt/3*0.9, 0, 0],
-      [0, 0, dt/3*0.9, 0],
-      [0, 0, 0, dt/3*0.9],
+      [positionUncertaintyInPrediction, 0, 0, 0],
+      [0, positionUncertaintyInPrediction, 0, 0],
+      [0, 0, velocityUncertaintyInPrediction, 0],
+      [0, 0, 0, velocityUncertaintyInPrediction],
     ];
 
     const X_prev = this.convertStateToMatrix({ x: this.x, y: this.y, vx: this.vx, vy: this.vy });
@@ -122,7 +108,7 @@ export class KalmanFilter {
     const BU = util.multiplyMatrices(B, u_prev);
 
     this.X = util.addMatrices(AX, BU);
-
+    
     this.x = this.X[0][0];
     this.y = this.X[1][0];
     this.vx = this.X[2][0];
@@ -140,7 +126,7 @@ export class KalmanFilter {
     vx: number;
     vy: number;
   }): void {
-    this.findVariances(measurements);
+    //this.findVariances(measurements);
     // Update the state based on the measurements
     // Y = C * X + Z
 
@@ -171,12 +157,13 @@ export class KalmanFilter {
       [0, 0, 0, 1],
     ]
 
-    // Measurement noise covariance (R) - variance of the measurement noise
+    const measNoiseInPosition = 1.5; // Adjust based on the accuracy of the measurement
+    const measNoiseInVelocity = 0.8; // Adjust based on the accuracy of the measurement
      this.R = [
-      [this.veri_x*0.9, 0, this.coveri_x_vx*0.6, 0],
-      [0, this.veri_y*0.9, 0, this.coveri_y_vy*0.6],
-      [this.coveri_x_vx*0.6, 0, this.veri_vx*0.9, 0],
-      [0, this.coveri_y_vy*0.6, 0, this.veri_vy*0.9],
+      [measNoiseInPosition, 0, 0, 0],
+      [0, measNoiseInPosition, 0, 0],
+      [0, 0, measNoiseInVelocity, 0],
+      [0, 0, 0, measNoiseInVelocity],
     ];
 
     // Kalman gain (K)
@@ -191,24 +178,19 @@ export class KalmanFilter {
     this.X = util.addMatrices(this.X, K_residual);
 
     // Update the state covariance matrix (P)
-    // P = (I - K * H) * P
-    const I = [
-      [1, 0, 0, 0],
-      [0, 1, 0, 0],
-      [0, 0, 1, 0],
-      [0, 0, 0, 1],
-    ];
-    const KH = util.multiplyMatrices(this.K, H);
-    const I_minus_KH = util.subtractMatrices(I, KH);
-    this.P = util.multiplyMatrices(I_minus_KH, this.P);
+    // P = P - K * H * P
 
-    this.ax = (measurements.vx - this.vx)/this.dt;
-    this.ay = (measurements.vy - this.vy)/this.dt;
+    const KH = util.multiplyMatrices(this.K, H);
+    const KHP = util.multiplyMatrices(KH, this.P);
+    this.P = util.subtractMatrices(this.P, KHP);
 
     this.x = this.X[0][0];
     this.y = this.X[1][0];
     this.vx = this.X[2][0];
     this.vy = this.X[3][0];
+
+    this.ax = (measurements.vx - this.vx)/this.dt;
+    this.ay = (measurements.vy - this.vy)/this.dt;
   }
 
   private calculateKalmanGain(H: number[][], R: number[][]): number[][] {
@@ -266,31 +248,5 @@ export class KalmanFilter {
       [obj.x],
       [obj.y],
     ];
-  }
-
-  private findVariances(M: { x: number; y: number; vx: number; vy: number }): void {
-    this.sum_x += M.x;
-    this.sum_y += M.y;
-    this.sum_vx += M.vx;
-    this.sum_vy += M.vy;
-    this.measurement_count += 1;
-
-    this.sum_x_diff += (M.x - this.sum_x/this.measurement_count) ** 2;
-    this.sum_y_diff += (M.y - this.sum_y/this.measurement_count) ** 2;
-    this.sum_vx_diff += (M.vx - this.sum_vx/this.measurement_count) ** 2;
-    this.sum_vy_diff += (M.vy - this.sum_vy/this.measurement_count) ** 2;
-
-    this.sum_x_vx += (M.x - this.sum_x/this.measurement_count)*(M.vx - this.sum_vx/this.measurement_count);
-    this.sum_y_vy += (M.y - this.sum_y/this.measurement_count)*(M.vy - this.sum_vy/this.measurement_count);
-
-    this.veri_x = this.sum_x_diff/this.measurement_count;
-    this.veri_y = this.sum_y_diff/this.measurement_count;
-    this.veri_vx = this.sum_vx_diff/this.measurement_count;
-    this.veri_vy = this.sum_vy_diff/this.measurement_count;
-
-    this.coveri_x_vx =  this.sum_x_vx/this.measurement_count;
-    this.coveri_y_vy =  this.sum_y_vy/this.measurement_count;
-
-    console.log("variances: ", this.veri_x, this.veri_y, this.veri_vx, this.veri_vy);
   }
 }

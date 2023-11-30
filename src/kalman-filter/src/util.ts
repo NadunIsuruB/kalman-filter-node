@@ -73,62 +73,36 @@ export class util {
       console.error("Input matrix must be 4x4.");
       throw new Error("Input matrix must be 4x4.");
     }
-
-    // Create the augmented matrix [A | I]
-    const augmentedMatrix: number[][] = matrix.map((row, i) => [
-      ...row,
-      ...new Array(4).fill(0).map((_, j) => (i === j ? 1 : 0)),
-    ]);
-
-    // Apply Gauss-Jordan elimination
-    for (let col = 0; col < 4; col++) {
-      // Find the pivot row
-      let pivotRow = col;
-      for (let row = col + 1; row < 4; row++) {
-        if (
-          Math.abs(augmentedMatrix[row][col]) >
-          Math.abs(augmentedMatrix[pivotRow][col])
-        ) {
-          pivotRow = row;
-        }
-      }
-
-      // Swap rows to make the pivot element non-zero
-      [augmentedMatrix[col], augmentedMatrix[pivotRow]] = [
-        augmentedMatrix[pivotRow],
-        augmentedMatrix[col],
-      ];
-
-      const pivot = augmentedMatrix[col][col];
-
-      if (pivot === 0) {
-        console.error("Matrix is not invertible.");
-        throw new Error("Matrix is not invertible.");
-      }
-
-      // Scale the pivot row to have a leading 1
-      for (let i = 0; i < 8; i++) {
-        augmentedMatrix[col][i] /= pivot;
-      }
-
-      // Eliminate other rows
-      for (let row = 0; row < 4; row++) {
-        if (row !== col) {
-          const factor = augmentedMatrix[row][col];
-          for (let i = 0; i < 8; i++) {
-            augmentedMatrix[row][i] -= factor * augmentedMatrix[col][i];
-          }
-        }
+  
+    const determinant = util.getDeterminantFrom4X4(matrix);
+  
+    if (determinant === 0) {
+      console.error("Matrix is singular, cannot invert.");
+      throw new Error("Matrix is singular, cannot invert.");
+    }
+  
+    const invDet = 1 / determinant;
+  
+    const result: number[][] = [];
+  
+    for (let i = 0; i < 4; i++) {
+      result[i] = [];
+      for (let j = 0; j < 4; j++) {
+        const cofactor = ((i + j) % 2 === 0 ? 1 : -1) *
+          ((matrix[(j + 1) % 4][(i + 1) % 4] * matrix[(j + 2) % 4][(i + 2) % 4] * matrix[(j + 3) % 4][(i + 3) % 4]) -
+            (matrix[(j + 1) % 4][(i + 2) % 4] * matrix[(j + 2) % 4][(i + 3) % 4] * matrix[(j + 3) % 4][(i + 1) % 4]) +
+            (matrix[(j + 1) % 4][(i + 3) % 4] * matrix[(j + 2) % 4][(i + 1) % 4] * matrix[(j + 3) % 4][(i + 2) % 4]) -
+            (matrix[(j + 1) % 4][(i + 1) % 4] * matrix[(j + 2) % 4][(i + 3) % 4] * matrix[(j + 3) % 4][(i + 2) % 4]) -
+            (matrix[(j + 1) % 4][(i + 2) % 4] * matrix[(j + 2) % 4][(i + 1) % 4] * matrix[(j + 3) % 4][(i + 3) % 4]) +
+            (matrix[(j + 1) % 4][(i + 3) % 4] * matrix[(j + 2) % 4][(i + 1) % 4] * matrix[(j + 3) % 4][(i + 2) % 4]));
+  
+        result[i][j] = cofactor * invDet;
       }
     }
-
-    // Extract the inverted matrix from the augmented matrix
-    const invertedMatrix: number[][] = augmentedMatrix.map((row) =>
-      row.slice(4)
-    );
-
-    return invertedMatrix;
+  
+    return result;
   }
+  
 
   public static subtractMatrices(matrixA: number[][], matrixB: number[][]): number[][] {
     const rowsA = matrixA.length;
