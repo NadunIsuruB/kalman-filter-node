@@ -26,6 +26,7 @@
     "canvas": "^2.11.2",
     "chartjs": "^0.3.24",
     "chartjs-node-canvas": "^4.1.6",
+    "fs": "^0.0.1-security",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1",
     "svg2pdf": "^1.1.1"

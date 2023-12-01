@@ -54,11 +54,11 @@ describe('Utility Functions', () => {
     const result = util.invert4x4(matrix);
 
     const expectedResult = [
-      [1, -2, 1, 0],
-      [0, 1, -2, 1],
-      [0, 0, 1, -2],
-      [0, 0, 0, 1],
-    ];
+    [ 1, -2,  1,  0],
+    [ 0,  1, -2,  1],
+    [ 0,  0,  1, -2],
+    [ 0,  0,  0,  1,]
+  ];
 
     expect(result).toEqual(expectedResult);
   });
@@ -129,6 +129,29 @@ describe('Utility Functions', () => {
     const expectedResult = 1;
 
     expect(result).toEqual(expectedResult);
+  });
+
+  it('should correctly format object', () => {
+    const object = {
+      reportedAt: '2023-11-29T10:35:08.000Z',
+      longitude: 80.39655666666667,
+      latitude: 8.067295,
+      speed: 20,
+      legDistance: 0,
+      course: 284,
+    };
+    const courseRadians = object.course * Math.PI / 180;
+    const expectedResult = {
+      x: 8.067295,
+      y: 80.39655666666667,
+      vx: 20 * Math.cos(courseRadians),
+      vy: 20 * Math.sin(courseRadians),
+    };
+
+    const result = util.convertObject(object);
+
+    expect(result).toEqual(expectedResult);
+
   });
 });
 

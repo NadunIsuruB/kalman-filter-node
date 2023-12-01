@@ -56,10 +56,10 @@ export class KalmanFilter {
     if (initialP) {
       this.P = initialP;
     } else {
-      const defaultSigmaX = 1;
-      const defaultSigmaY = 1;
-      const defaultSigmaVx = 0.1;
-      const defaultSigmaVy = 0.1;
+      const defaultSigmaX = 1000;
+      const defaultSigmaY = 1000;
+      const defaultSigmaVx = 100;
+      const defaultSigmaVy = 100;
 
       this.P = [
         [defaultSigmaX ** 2, 0, 0, 0],
@@ -90,7 +90,7 @@ export class KalmanFilter {
     ];
 
 
-    const positionUncertaintyInPrediction = 1; // Adjust based on the accuracy of the prediction
+    const positionUncertaintyInPrediction = 2; // Adjust based on the accuracy of the prediction
     const velocityUncertaintyInPrediction = 1.5; // Adjust based on the accuracy of the prediction
     
     // Noise in the prediction

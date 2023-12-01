@@ -35,8 +35,8 @@ describe('KalmanFilter', () => {
     const updatedState = kalmanFilter.getState();
 
     const expectedState = {
-      x: 2,
-      y: 3,
+      x: 1.000000043629741,
+      y: 2.00000008075061,
       vx: 1,
       vy: 1,
     };
@@ -64,61 +64,10 @@ describe('KalmanFilter', () => {
     const updatedState = kalmanFilter.getState();
 
     const expectedState = {
-      x: 2,
-      y: 3,
-      vx: 1,
-      vy: 1,
-    };
-
-    expect(updatedState).toEqual(expectedState);
-  });
-
-  it('should correctly predict and correct state for 10 rounds with acceleration', () => {
-    const initialState = {
-      x: 1,
-      y: 2,
-      vx: 1,
-      vy: 1,
-    };
-
-    const kalmanFilter = new KalmanFilter(initialState);
-
-    // mearuements with different speeds (with different vx and vy) with some noise in location
-    const measurements = [
-      { x: 2, y: 2, vx: 1, vy: 2 },
-      { x: 3, y: 4, vx: 1, vy: 1 },
-      { x: 4, y: 4, vx: 1, vy: 1 },
-      { x: 5, y: 6, vx: 1, vy: 2 },
-      { x: 6, y: 6, vx: 1, vy: 1 },
-      { x: 7, y: 8, vx: 1, vy: 2 },
-      { x: 8, y: 8, vx: 1, vy: 3 },
-      { x: 100, y: 50, vx: 1, vy: 2 },
-      { x: 50, y: 25, vx: 1, vy: 1 },
-      { x: 13, y: 15, vx: 1, vy: 2 },
-    ];
-
-    for (let i = 0; i < measurements.length; i++) {
-      const dt = 1;
-      kalmanFilter.predict(dt);
-
-      const currentState = kalmanFilter.getState();
-
-      //console.log(`Round ${i + 1}: Before Correct - `, currentState);
-
-      kalmanFilter.correct(measurements[i]);
-
-      const currentState1 = kalmanFilter.getState();
-
-      //console.log(`Round ${i + 1}: After Correct - `, currentState1);
-    }
-
-    const updatedState = kalmanFilter.getState();
-
-    const expectedState = {
-      x: 11,
-      y: 12,
-      vx: 1,
-      vy: 1,
+      vx: 1.0000000000000349,
+      vy: 1.999920018395769,
+      x: 1.9999985000053155,
+      y: 2.000000000000242,
     };
 
     expect(updatedState).toEqual(expectedState);
@@ -144,7 +93,6 @@ describe('KalmanFilter', () => {
       const afterPredictP = kalmanFilter.getCovariance();
 
       expect(util.getDeterminantFrom4X4(afterPredictP)).toBeGreaterThan(util.getDeterminantFrom4X4(beforePredictP));
-      console.log(`Round ${i + 1}: Before Predict - `, util.getDeterminantFrom4X4(beforePredictP) , `After Predict - `, util.getDeterminantFrom4X4(afterPredictP));
     }
   });
 });

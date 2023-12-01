@@ -1,0 +1,1081 @@
+[{
+  "reportedAt": {
+    "$date": "2023-11-29T10:28:09.000Z"
+  },
+  "longitude": 80.40765333333334,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "686bc8b0-85bf-4c56-8855-2b26372b16b2",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.06221,
+  "createdAt": {
+    "$date": "2023-11-29T10:28:16.653Z"
+  },
+  "__v": 0,
+  "course": 0,
+  "updatedAt": {
+    "$date": "2023-11-29T10:28:16.653Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:28:18.000Z"
+  },
+  "longitude": 80.40765333333334,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "3de6f971-46a6-45cd-a918-ca3021ed9002",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.06221,
+  "createdAt": {
+    "$date": "2023-11-29T10:28:26.651Z"
+  },
+  "__v": 0,
+  "course": 0,
+  "updatedAt": {
+    "$date": "2023-11-29T10:28:26.651Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:28:29.000Z"
+  },
+  "longitude": 80.40765499999999,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "64dc0367-0495-4f1f-b9e0-808a37371cb9",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.06221,
+  "createdAt": {
+    "$date": "2023-11-29T10:28:36.618Z"
+  },
+  "__v": 0,
+  "course": 0,
+  "updatedAt": {
+    "$date": "2023-11-29T10:28:36.618Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:28:39.000Z"
+  },
+  "longitude": 80.40765333333334,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "ee3ba0b5-c393-45af-9409-38058c4db757",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.06221,
+  "createdAt": {
+    "$date": "2023-11-29T10:28:46.600Z"
+  },
+  "__v": 0,
+  "course": 0,
+  "updatedAt": {
+    "$date": "2023-11-29T10:28:46.600Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:28:49.000Z"
+  },
+  "longitude": 80.40765333333334,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "98e1b2bd-feac-4d56-83c2-42d90ac8b083",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.06221,
+  "createdAt": {
+    "$date": "2023-11-29T10:28:56.552Z"
+  },
+  "__v": 0,
+  "course": 0,
+  "updatedAt": {
+    "$date": "2023-11-29T10:28:56.552Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:28:58.000Z"
+  },
+  "longitude": 80.40765333333334,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "6a02b518-5114-4ee6-bf63-874d24fca80e",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.06221,
+  "createdAt": {
+    "$date": "2023-11-29T10:29:06.740Z"
+  },
+  "__v": 0,
+  "course": 0,
+  "updatedAt": {
+    "$date": "2023-11-29T10:29:06.740Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:29:09.000Z"
+  },
+  "longitude": 80.40765499999999,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "bfa0bedb-5a78-4483-a1f7-76fa9c76a032",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.062211666666666,
+  "createdAt": {
+    "$date": "2023-11-29T10:29:16.600Z"
+  },
+  "__v": 0,
+  "course": 0,
+  "updatedAt": {
+    "$date": "2023-11-29T10:29:16.600Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:29:19.000Z"
+  },
+  "longitude": 80.40765499999999,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "afd22b57-4bcc-4592-a157-0c4d99972f86",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.062211666666666,
+  "createdAt": {
+    "$date": "2023-11-29T10:29:26.488Z"
+  },
+  "__v": 0,
+  "course": 0,
+  "updatedAt": {
+    "$date": "2023-11-29T10:29:26.488Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:29:29.000Z"
+  },
+  "longitude": 80.40767666666666,
+  "speed": 7.400002693600001,
+  "legDistance": 0,
+  "_id": "d2213fe8-e27b-42f1-b06c-7b9910dfb2ac",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.062282777777778,
+  "createdAt": {
+    "$date": "2023-11-29T10:29:36.497Z"
+  },
+  "__v": 0,
+  "course": 7,
+  "updatedAt": {
+    "$date": "2023-11-29T10:29:36.497Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:29:38.000Z"
+  },
+  "longitude": 80.407615,
+  "speed": 11.100004040400002,
+  "legDistance": 0,
+  "_id": "0eba1b25-38ee-4a31-aa20-54275f2b0800",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.062336111111112,
+  "createdAt": {
+    "$date": "2023-11-29T10:29:46.441Z"
+  },
+  "__v": 0,
+  "course": 273,
+  "updatedAt": {
+    "$date": "2023-11-29T10:29:46.441Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:29:49.000Z"
+  },
+  "longitude": 80.40738666666667,
+  "speed": 11.100004040400002,
+  "legDistance": 0,
+  "_id": "c613800a-bdc7-48a5-a843-157b75bdc628",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.062404444444445,
+  "createdAt": {
+    "$date": "2023-11-29T10:29:56.420Z"
+  },
+  "__v": 0,
+  "course": 283,
+  "updatedAt": {
+    "$date": "2023-11-29T10:29:56.420Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:29:59.000Z"
+  },
+  "longitude": 80.40736833333332,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "2a26ff2d-0d94-47e4-9998-2cfa72f20e8e",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.062415,
+  "createdAt": {
+    "$date": "2023-11-29T10:30:06.395Z"
+  },
+  "__v": 0,
+  "course": 283,
+  "updatedAt": {
+    "$date": "2023-11-29T10:30:06.395Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:30:08.000Z"
+  },
+  "longitude": 80.40736166666667,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "e51c2450-3a49-49f7-a5e3-d052a46aebd2",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.062416666666667,
+  "createdAt": {
+    "$date": "2023-11-29T10:30:16.464Z"
+  },
+  "__v": 0,
+  "course": 283,
+  "updatedAt": {
+    "$date": "2023-11-29T10:30:16.464Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:30:18.000Z"
+  },
+  "longitude": 80.40735333333333,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "374c9b5d-448f-4525-941c-f81f154b923f",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.062416666666667,
+  "createdAt": {
+    "$date": "2023-11-29T10:30:26.357Z"
+  },
+  "__v": 0,
+  "course": 283,
+  "updatedAt": {
+    "$date": "2023-11-29T10:30:26.357Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:30:29.000Z"
+  },
+  "longitude": 80.40735166666666,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "68a8242b-5646-4275-b0c3-c7f7ed90df48",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.062416666666667,
+  "createdAt": {
+    "$date": "2023-11-29T10:30:36.317Z"
+  },
+  "__v": 0,
+  "course": 283,
+  "updatedAt": {
+    "$date": "2023-11-29T10:30:36.317Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:30:39.000Z"
+  },
+  "longitude": 80.40720666666667,
+  "speed": 22.200008080800004,
+  "legDistance": 0,
+  "_id": "3231f583-4df6-4783-b983-3a25bee4e364",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.062461666666668,
+  "createdAt": {
+    "$date": "2023-11-29T10:30:46.291Z"
+  },
+  "__v": 0,
+  "course": 287,
+  "updatedAt": {
+    "$date": "2023-11-29T10:30:46.291Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:30:49.000Z"
+  },
+  "longitude": 80.40681,
+  "speed": 38.85001414140001,
+  "legDistance": 0,
+  "_id": "a9fe2a3e-6def-4b8c-87ef-2e09538dee1e",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.062585,
+  "createdAt": {
+    "$date": "2023-11-29T10:30:56.248Z"
+  },
+  "__v": 0,
+  "course": 286,
+  "updatedAt": {
+    "$date": "2023-11-29T10:30:56.248Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:30:58.000Z"
+  },
+  "longitude": 80.406265,
+  "speed": 46.250016835000004,
+  "legDistance": 0,
+  "_id": "79841197-3039-490d-8188-c586b86dba94",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.062753333333333,
+  "createdAt": {
+    "$date": "2023-11-29T10:31:06.257Z"
+  },
+  "__v": 0,
+  "course": 287,
+  "updatedAt": {
+    "$date": "2023-11-29T10:31:06.257Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:31:09.000Z"
+  },
+  "longitude": 80.40558666666666,
+  "speed": 42.55001548820001,
+  "legDistance": 0,
+  "_id": "4ba43572-5c17-4d41-a2c3-ad7d34e4f9a9",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.062956111111111,
+  "createdAt": {
+    "$date": "2023-11-29T10:31:16.220Z"
+  },
+  "__v": 0,
+  "course": 286,
+  "updatedAt": {
+    "$date": "2023-11-29T10:31:16.220Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:31:19.000Z"
+  },
+  "longitude": 80.40495333333334,
+  "speed": 48.10001750840001,
+  "legDistance": 0,
+  "_id": "baedc87d-34fd-47fc-ab2d-b9d8b504d861",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.06314,
+  "createdAt": {
+    "$date": "2023-11-29T10:31:26.179Z"
+  },
+  "__v": 0,
+  "course": 286,
+  "updatedAt": {
+    "$date": "2023-11-29T10:31:26.179Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:31:28.000Z"
+  },
+  "longitude": 80.40437,
+  "speed": 46.250016835000004,
+  "legDistance": 0,
+  "_id": "d7c27f01-ea8d-4678-a1b6-44980ffaf381",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.063302777777778,
+  "createdAt": {
+    "$date": "2023-11-29T10:31:36.160Z"
+  },
+  "__v": 0,
+  "course": 285,
+  "updatedAt": {
+    "$date": "2023-11-29T10:31:36.160Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:31:38.000Z"
+  },
+  "longitude": 80.40437,
+  "speed": 46.250016835000004,
+  "legDistance": 0,
+  "_id": "0d76a3fc-a455-4c33-ad51-a1a57c34f2ce",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.063302777777778,
+  "createdAt": {
+    "$date": "2023-11-29T10:31:38.975Z"
+  },
+  "__v": 0,
+  "course": 285,
+  "updatedAt": {
+    "$date": "2023-11-29T10:31:38.975Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:31:38.000Z"
+  },
+  "longitude": 80.403925,
+  "speed": 7.400002693600001,
+  "legDistance": 0,
+  "_id": "95c5ffab-1c73-4237-ad16-dbbe2eccd829",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.063421666666667,
+  "createdAt": {
+    "$date": "2023-11-29T10:31:46.143Z"
+  },
+  "__v": 0,
+  "course": 279,
+  "updatedAt": {
+    "$date": "2023-11-29T10:31:46.143Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:31:49.000Z"
+  },
+  "longitude": 80.403575,
+  "speed": 24.050008754200004,
+  "legDistance": 0,
+  "_id": "cac809d8-3fdd-4f3a-abf5-c1f24602e05e",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.063481666666666,
+  "createdAt": {
+    "$date": "2023-11-29T10:31:56.094Z"
+  },
+  "__v": 0,
+  "course": 280,
+  "updatedAt": {
+    "$date": "2023-11-29T10:31:56.094Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:31:59.000Z"
+  },
+  "longitude": 80.40358833333333,
+  "speed": 40.70001481480001,
+  "legDistance": 0,
+  "_id": "8a06f8bb-33a6-4eb9-836c-3e8360aa9b28",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.063805,
+  "createdAt": {
+    "$date": "2023-11-29T10:32:06.076Z"
+  },
+  "__v": 0,
+  "course": 14,
+  "updatedAt": {
+    "$date": "2023-11-29T10:32:06.076Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:32:08.000Z"
+  },
+  "longitude": 80.403735,
+  "speed": 44.40001616160001,
+  "legDistance": 0,
+  "_id": "cfc9caaa-7054-4892-8b0d-ae30eed91d8f",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.06434,
+  "createdAt": {
+    "$date": "2023-11-29T10:32:16.042Z"
+  },
+  "__v": 0,
+  "course": 14,
+  "updatedAt": {
+    "$date": "2023-11-29T10:32:16.042Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:32:18.000Z"
+  },
+  "longitude": 80.40388,
+  "speed": 40.70001481480001,
+  "legDistance": 0,
+  "_id": "944a0c06-2a8c-464e-8944-f23b73c88cea",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.064923333333335,
+  "createdAt": {
+    "$date": "2023-11-29T10:32:26.048Z"
+  },
+  "__v": 0,
+  "course": 14,
+  "updatedAt": {
+    "$date": "2023-11-29T10:32:26.048Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:32:29.000Z"
+  },
+  "longitude": 80.40398333333333,
+  "speed": 20.350007407400003,
+  "legDistance": 0,
+  "_id": "f7bbe17a-1b42-4b9c-afe7-27ff77cf3f00",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.065286666666667,
+  "createdAt": {
+    "$date": "2023-11-29T10:32:36.029Z"
+  },
+  "__v": 0,
+  "course": 21,
+  "updatedAt": {
+    "$date": "2023-11-29T10:32:36.029Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:32:39.000Z"
+  },
+  "longitude": 80.40405999999999,
+  "speed": 16.650006060600003,
+  "legDistance": 0,
+  "_id": "9c93ce2e-def4-4f29-b1e3-0bfaeb4ad366",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.065555,
+  "createdAt": {
+    "$date": "2023-11-29T10:32:46.973Z"
+  },
+  "__v": 0,
+  "course": 19,
+  "updatedAt": {
+    "$date": "2023-11-29T10:32:46.973Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:32:49.000Z"
+  },
+  "longitude": 80.40398499999999,
+  "speed": 27.750010101000008,
+  "legDistance": 0,
+  "_id": "b765a776-f584-460d-8dfc-7786d3edb448",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.065645,
+  "createdAt": {
+    "$date": "2023-11-29T10:32:57.028Z"
+  },
+  "__v": 0,
+  "course": 276,
+  "updatedAt": {
+    "$date": "2023-11-29T10:32:57.028Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:32:58.000Z"
+  },
+  "longitude": 80.40338666666668,
+  "speed": 68.4500249158,
+  "legDistance": 0,
+  "_id": "cdc92b4a-ad09-494b-a8c6-d15048701c9b",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.065788333333334,
+  "createdAt": {
+    "$date": "2023-11-29T10:33:08.778Z"
+  },
+  "__v": 0,
+  "course": 284,
+  "updatedAt": {
+    "$date": "2023-11-29T10:33:08.778Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:33:09.000Z"
+  },
+  "longitude": 80.40226833333332,
+  "speed": 74.00002693600001,
+  "legDistance": 0,
+  "_id": "cf012cbe-5e70-45ca-a8e4-eac8336ce284",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.066036666666667,
+  "createdAt": {
+    "$date": "2023-11-29T10:33:16.858Z"
+  },
+  "__v": 0,
+  "course": 283,
+  "updatedAt": {
+    "$date": "2023-11-29T10:33:16.858Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:33:19.000Z"
+  },
+  "longitude": 80.40123833333332,
+  "speed": 74.00002693600001,
+  "legDistance": 0,
+  "_id": "4588771d-e9f9-4662-b252-2b975de70423",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.066273333333333,
+  "createdAt": {
+    "$date": "2023-11-29T10:33:26.874Z"
+  },
+  "__v": 0,
+  "course": 281,
+  "updatedAt": {
+    "$date": "2023-11-29T10:33:26.874Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:33:28.000Z"
+  },
+  "longitude": 80.40029166666666,
+  "speed": 79.55002895620001,
+  "legDistance": 0,
+  "_id": "344a42b1-5d05-4e06-851e-cfe9b8e9977f",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.066486666666666,
+  "createdAt": {
+    "$date": "2023-11-29T10:33:36.851Z"
+  },
+  "__v": 0,
+  "course": 282,
+  "updatedAt": {
+    "$date": "2023-11-29T10:33:36.851Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:33:38.000Z"
+  },
+  "longitude": 80.39918666666667,
+  "speed": 83.25003030300002,
+  "legDistance": 0,
+  "_id": "e2f01060-9202-4226-bbd3-a2fa6d54a9dc",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.066726666666666,
+  "createdAt": {
+    "$date": "2023-11-29T10:33:46.778Z"
+  },
+  "__v": 0,
+  "course": 283,
+  "updatedAt": {
+    "$date": "2023-11-29T10:33:46.778Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:33:48.000Z"
+  },
+  "longitude": 80.39809166666667,
+  "speed": 79.55002895620001,
+  "legDistance": 0,
+  "_id": "92df7e03-f908-483d-a9e4-9a137277a1c4",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.066983333333333,
+  "createdAt": {
+    "$date": "2023-11-29T10:33:56.850Z"
+  },
+  "__v": 0,
+  "course": 284,
+  "updatedAt": {
+    "$date": "2023-11-29T10:33:56.850Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:33:59.000Z"
+  },
+  "longitude": 80.39699833333334,
+  "speed": 46.250016835000004,
+  "legDistance": 0,
+  "_id": "a58ec0ed-f069-4dd5-834b-3789664b5489",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.06723,
+  "createdAt": {
+    "$date": "2023-11-29T10:34:06.748Z"
+  },
+  "__v": 0,
+  "course": 277,
+  "updatedAt": {
+    "$date": "2023-11-29T10:34:06.748Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:34:09.000Z"
+  },
+  "longitude": 80.39669500000001,
+  "speed": 7.400002693600001,
+  "legDistance": 0,
+  "_id": "0b22ab43-cfee-433d-ba4c-27763b9e41e2",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.06727,
+  "createdAt": {
+    "$date": "2023-11-29T10:34:16.712Z"
+  },
+  "__v": 0,
+  "course": 270,
+  "updatedAt": {
+    "$date": "2023-11-29T10:34:16.712Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:34:18.000Z"
+  },
+  "longitude": 80.3966,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "92db6fe4-a8d3-497a-bd3c-7fdbc8312e6e",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.067281111111111,
+  "createdAt": {
+    "$date": "2023-11-29T10:34:26.809Z"
+  },
+  "__v": 0,
+  "course": 284,
+  "updatedAt": {
+    "$date": "2023-11-29T10:34:26.809Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:34:28.000Z"
+  },
+  "longitude": 80.39658833333333,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "e68b1026-2dc0-47a6-b6a2-d1b8d6ff7e7b",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.067285,
+  "createdAt": {
+    "$date": "2023-11-29T10:34:36.662Z"
+  },
+  "__v": 0,
+  "course": 284,
+  "updatedAt": {
+    "$date": "2023-11-29T10:34:36.662Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:34:39.000Z"
+  },
+  "longitude": 80.396575,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "364354c0-79f7-4b00-80ca-4be577f06f9b",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.067287777777779,
+  "createdAt": {
+    "$date": "2023-11-29T10:34:46.652Z"
+  },
+  "__v": 0,
+  "course": 284,
+  "updatedAt": {
+    "$date": "2023-11-29T10:34:46.652Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:34:49.000Z"
+  },
+  "longitude": 80.39656833333332,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "9e54b71c-e9ac-4dc9-8c85-56956ac8c5aa",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.067291666666666,
+  "createdAt": {
+    "$date": "2023-11-29T10:34:56.671Z"
+  },
+  "__v": 0,
+  "course": 284,
+  "updatedAt": {
+    "$date": "2023-11-29T10:34:56.671Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:34:58.000Z"
+  },
+  "longitude": 80.39656166666667,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "183d098f-d880-44d0-9d10-761f6d1b7521",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.067293333333334,
+  "createdAt": {
+    "$date": "2023-11-29T10:35:06.646Z"
+  },
+  "__v": 0,
+  "course": 284,
+  "updatedAt": {
+    "$date": "2023-11-29T10:35:06.646Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:35:08.000Z"
+  },
+  "longitude": 80.39655666666667,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "50765705-4353-4ae8-9986-198ffbb0fe0c",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.067295,
+  "createdAt": {
+    "$date": "2023-11-29T10:35:16.683Z"
+  },
+  "__v": 0,
+  "course": 284,
+  "updatedAt": {
+    "$date": "2023-11-29T10:35:16.683Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:35:19.000Z"
+  },
+  "longitude": 80.39655166666667,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "4f7e06b8-e09c-44d4-9877-b40c71e3dac9",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.06729611111111,
+  "createdAt": {
+    "$date": "2023-11-29T10:35:26.587Z"
+  },
+  "__v": 0,
+  "course": 284,
+  "updatedAt": {
+    "$date": "2023-11-29T10:35:26.587Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:35:29.000Z"
+  },
+  "longitude": 80.39655,
+  "speed": 0,
+  "legDistance": 0,
+  "_id": "a9197daf-13e7-4c75-b9f5-54761996c53f",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.067295,
+  "createdAt": {
+    "$date": "2023-11-29T10:35:36.545Z"
+  },
+  "__v": 0,
+  "course": 284,
+  "updatedAt": {
+    "$date": "2023-11-29T10:35:36.545Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+},
+{
+  "reportedAt": {
+    "$date": "2023-11-29T10:35:38.000Z"
+  },
+  "longitude": 80.39642166666667,
+  "speed": 37.000013468000006,
+  "legDistance": 0,
+  "_id": "a13b4610-f439-4af7-87fc-b8f2a01ea445",
+  "deviceId": "352672104492236",
+  "vehicleId": "84cb982a-2091-4209-87c6-5b200fe3db94",
+  "trackingDeviceType": "0",
+  "vehicleRegNo": "TEST TRUCK 2",
+  "latitude": 8.067335,
+  "createdAt": {
+    "$date": "2023-11-29T10:35:46.602Z"
+  },
+  "__v": 0,
+  "course": 286,
+  "updatedAt": {
+    "$date": "2023-11-29T10:35:46.602Z"
+  },
+  "tripId": "f5d5bc6c-2396-404b-b939-9084e3b592e0"
+}]
