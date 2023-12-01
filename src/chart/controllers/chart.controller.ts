@@ -28,7 +28,7 @@ export class ChartController {
 
     // measurements format: {x: 2, y: 2, vx: 1, vy: 2},
 
-    const data = fs.readFileSync('./haulmatic.gpsinfo2_trip.json', 'utf8')
+    const data = fs.readFileSync('./haulmatic.gpsinfo2_trip_full.json', 'utf8')
     const jsonData = JSON.parse(data)
 
     for (let i = 0; i < jsonData.length; i++) {
